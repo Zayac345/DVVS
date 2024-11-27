@@ -1,0 +1,114 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  background: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px;
+  max-width: 1200px;
+}
+
+.main-content {
+  margin-left: 1px;
+  background-color: white;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.8);
+  padding: 105px 90px;
+}
+
+.aboutUser {
+  margin-bottom: 40px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-descrption {
+  width: 400px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.sidebar {
+  color: white;
+  background: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+.sidebar div{
+  margin: auto;
+  width: 80%;
+
+  padding: 10px;
+  ul li::before{
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+.sidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 30px;
+  color: #000000;
+}
+.sidebar h3{
+  color: white;
+}
+h4{
+  font-size: 18px;
+  color: #000000;
+}
+.organization{
+  color: orangered;
+  
+}
+.duration{
+  color: lightgray;
+  
+}
+.duration span{
+  color: #000000;
+}
+.work div ul{
+  line-height: 1.7;
+}
+.university{
+  color: orangered;
+  font-weight: bold ;
+}
+.faculty{
+  font-weight: bold;
+  color: #000000;
+}
